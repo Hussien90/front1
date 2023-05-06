@@ -1,0 +1,197 @@
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.head {
+    padding: 200px 300px 200px 100px;
+}
+
+.head .box {
+    display: flex;
+    gap: 209px;
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width:771px){
+    .head .box{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media(max-width:771px){
+    .head .box .right{
+        margin-left: 140px;
+    }
+}
+
+.head .box .left {
+    padding: 10px 25px 10px 25px;
+    border: 1px solid #ccc;
+    border-radius: 37px;
+    margin-right: -130px;
+    text-align: center;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));  
+}
+
+.head .box .left .main {
+    font-size: 18px;
+    font-weight: bold;
+    color: hsl(241, 100%, 89%);
+}
+.circle{
+    background: linear-gradient(to bottom ,hsla(256, 72%, 46%, 1) , hsla(241, 72%, 46%, 0));
+    border: 50px solid hsla(256, 72%, 46%, 1);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 21px;
+}
+
+.circle .number {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: -15px;
+    margin-bottom: 0px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsla(256, 72%, 46%, 1);
+}
+.circle .of{
+    color: hsl(241, 100%, 89%);
+    font-size: 14px;
+}
+.left .name{
+    color: white;
+    font-size: 25px;
+}
+.left p{
+    color:  hsl(241, 100%, 89%);
+    font-size: 14px;
+}
+.right{
+    margin-bottom: 35px;
+}
+.head .box .right{
+    display: flex;
+    flex-direction: column;
+}
+.head .box .right h3{
+font-size: 19px;
+}
+.head .box .right .icon1{
+    gap: 17px;
+    display: inline-flex;
+    font-size: 15px;
+    padding: 1px 10px;
+    background-color:#ff000021;
+    border-style: none;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+.head .box .right .icon1 p{
+    font-size: 14px;
+    color: #cd3939a6;
+}
+.head .box .right .icon1 span:first-of-type{
+    margin-top: 14px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.head .box .right .icon1 span:last-of-type{
+    margin-top: 14px;
+    margin-left: -10px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.head .box .right .icon2{
+    gap: 17px;
+    display: inline-flex;
+    font-size: 15px;
+    padding: 1px 10px;
+    background-color:#ffff0021;
+    border-style: none;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+.head .box .right .icon2 p{
+    font-size: 14px;
+    color: #beca21
+}
+.head .box .right .icon2 span:first-of-type{
+    margin-top: 14px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.head .box .right .icon2 span:last-of-type{
+    margin-top: 14px;
+    margin-left: -10px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.head .box .right .icon3{
+    gap: 17px;
+    display: inline-flex;
+    font-size: 15px;
+    padding: 1px 10px;
+    background-color:#00800014;
+    border-style: none;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+.head .box .right .icon3 p{
+    font-size: 14px;
+    color: #008000f2;
+}
+.head .box .right .icon3 span:first-of-type{
+    margin-top: 14px;
+    margin-left: 22px;
+    font-size: 14px;
+}
+.head .box .right .icon3 span:last-of-type{
+    margin-top: 14px;
+    margin-left: -10px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.head .box .right .icon4{
+    gap: 17px;
+    display: inline-flex;
+    font-size: 15px;
+    padding: 1px 10px;
+    background-color:#2e2be917;
+    border-style: none;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+.head .box .right .icon4 p{
+    font-size: 14px;
+    color: #2e2be9d1;
+}
+.head .box .right .icon4 span:first-of-type{
+    margin-top: 14px;
+    margin-left: 22px;
+    font-size: 14px;
+}
+.head .box .right .icon4 span:last-of-type{
+    margin-top: 14px;
+    margin-left: -10px;
+    font-size: 14px;
+    color: #ccc;
+}
+.head .box a{
+    padding: 10px 0px 15px 2px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 31%;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
